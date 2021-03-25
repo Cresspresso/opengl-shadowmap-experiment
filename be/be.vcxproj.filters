@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\pink">
+      <UniqueIdentifier>{f8b15230-edf4-4517-86c9-c60b9a628a1d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\mem">
+      <UniqueIdentifier>{fc3c6308-2a63-424b-a2e5-4a5ff97f61bc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\basic_assets">
+      <UniqueIdentifier>{052d9a44-5918-4b09-9b73-7dfed6f6f669}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="source\be\be.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\be\logger.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\be\gl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\be\ft.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\be\read_entire_file.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\be\application.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\be\pink\camera.cpp">
+      <Filter>Source Files\pink</Filter>
+    </ClCompile>
+    <ClCompile Include="source\be\pink\skybox.cpp">
+      <Filter>Source Files\pink</Filter>
+    </ClCompile>
+    <ClCompile Include="source\be\pink\text_label.cpp">
+      <Filter>Source Files\pink</Filter>
+    </ClCompile>
+    <ClCompile Include="source\be\pink\unlit.cpp">
+      <Filter>Source Files\pink</Filter>
+    </ClCompile>
+    <ClCompile Include="source\be\pink\model.cpp">
+      <Filter>Source Files\pink</Filter>
+    </ClCompile>
+    <ClCompile Include="source\be\basic_assets\cube.cpp">
+      <Filter>Source Files\basic_assets</Filter>
+    </ClCompile>
+    <ClCompile Include="source\be\basic_assets\fonts.cpp">
+      <Filter>Source Files\basic_assets</Filter>
+    </ClCompile>
+    <ClCompile Include="source\be\basic_assets\quad.cpp">
+      <Filter>Source Files\basic_assets</Filter>
+    </ClCompile>
+    <ClCompile Include="source\be\basic_assets\textures.cpp">
+      <Filter>Source Files\basic_assets</Filter>
+    </ClCompile>
+    <ClCompile Include="source\be\pink\trs.cpp">
+      <Filter>Source Files\pink</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
